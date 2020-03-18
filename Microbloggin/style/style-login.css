@@ -1,0 +1,142 @@
+*{
+  margin: 0 auto;
+}
+body{
+  background-color: #ffffff;
+}
+.box-1{
+  position: absolute;
+  height: 100%;
+  width: 650px;
+  background-color:#33E1FF;
+  color: color: rgba(0, 0, 0, 0.64);
+}
+
+.box-image{
+  position: absolute;
+  left: 255px;
+  top: 200px;
+}
+
+.box-head{
+  position: absolute;
+  left: 240px;
+  top: 380px;
+  color: rgba(0, 0, 0, 0.64);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.box-head .box-head-1{
+  top:380px;
+}
+.box-head .box-head-2{
+  margin-top: 31px;
+  margin-left: -48px;
+}
+
+.box-2{
+  position: absolute;
+  height:434px;
+  width: 504px;
+  top: 150px;
+  right: 280px;
+  background: #F2F2F2;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .12);
+}
+
+
+.box-2 .head-1{
+  width: 170px;
+  letter-spacing: 4px;
+  font-family: 'Lato';
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.64);
+  border-bottom: 4px solid #33E1FF;
+  padding-left: 55px;
+}
+
+
+form label{
+  color:rgba(0, 0, 0, 0.64);
+  font-size: 14px;
+  font-family: 'Lato';
+  font-weight: bold;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.label-1{
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.label-2{
+  margin-top: 24px;
+  margin-left: 80px;
+}
+
+
+
+form input[type = "text"],input[type="password"]{
+  margin-top: 50px;
+  margin-left: 79px;
+  background-color:  #FFFFFF;
+  width: 350px;
+  height: 40px;
+  border: 1px solid #D0D3D4;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 4px;
+  color: #3E4B50 ;
+  font-family: 'Lato';
+}
+
+form input[type = "text"]:hover, input[type = "password"]:hover{
+  border: 1px solid #3CD0FF;c
+}
+
+
+
+form input[type = "submit"]{
+  background-color: #3CD0FF;
+    width: 391px;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: bold;
+    padding: 5px 30px;
+    background: #3CD0FF;
+    border: 1px solid #3CD0FF;
+    color: rgba(0, 0, 0, 0.64);
+    margin-left: 62px;
+    border-radius: 2px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+form input[type = "submit"]:hover{
+  box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .12);
+}
+
+.label-4{
+  left: 194px;
+  margin-top: 105px;
+}
+.label-5{
+  left: 277px;
+  margin-top: 106px;
+  color: #3CD0FF;
+}
+
+
+.label-5:hover{
+  border-bottom: 1px solid #3CD0FF;
+}
